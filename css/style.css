@@ -942,8 +942,84 @@ padding-bottom:10px;
 
 
 /*Start media query*/
+@media(max-width:1024px){
+    .section-p1{
+        padding : 2.7rem 2.7rem;
+    }
+    .header_navbar{
+        display :flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top:0;
+        right:-300px;
+        height:100vh;
+        width:300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0 , 0 ,0 ,0.1);
+        padding:80px 0 0 10px;
+        transition:0.3s
+    }
+    .product .pro-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+    .header_navbar.active{
+        right:0;
+    }
+    .header_navbar li{
+        margin-bottom: 25px;
+    }
+    .moblie{
+        display: flex;
+        align-items: center;
+    }
+    .moblie i{
+        color:#1a1a1a;
+        font-size:24px;
+        padding-left: 20px;
+    }
+    #close{
+        display: block;
+        position: absolute;
+        top:30px;
+        left: 30px;
+        color:#222;
+        font-size:24px;
+    }
+ 
+    .feature {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+ 
+    .banner{
+        height: 20vh;
+    }
+    .action-banner .banner-box{
+        min-width: 100%;
+        height: 30vh;
+    }
+    .action-banner2{
+        padding:0 40px;
+    }
+    .newsletter .form{
+        width: 64%;
+    }
 
-
+    .form_details{
+        padding:40px;
+       
+    }
+  
+   
+}
 @media(max-width:799px){
     .section-p1{
         padding : 2.7rem 2.7rem;
